@@ -38,9 +38,22 @@ body {
   visibility: hidden;
 }
 
+.highscore {
+  background-color: rgb(184, 184, 184);
+  border: 5px solid rgb(184, 184, 184);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.top-score {
+  visibility: hidden;
+}
 .score {
   background-color: rgb(184, 184, 184);
   border: 5px solid rgb(184, 184, 184);
   border-radius: 3px;
   text-align: center;
+}
+#repeat {
+  visibility: hidden;
 }
